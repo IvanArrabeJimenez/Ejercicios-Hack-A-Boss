@@ -26,7 +26,7 @@ public class Ejercicio4 {
 
         //Indicamos todos los asientos como vacíos y los mostramos
         for (fila = 0; fila < asientos.length; fila++) {
-            for (columna = 0; columna < asientos.length; columna++) {
+            for (columna = 0; columna < asientos[0].length; columna++) {
                 asientos[fila][columna] = "o";
             }
         }
@@ -34,14 +34,14 @@ public class Ejercicio4 {
         //Mostramos todos los asientos ordenados en una cuadrícula
 
         for (fila = 0; fila < asientos.length; fila++) {
-            System.out.print("|");
+            System.out.print(fila + " | ");
             for (columna = 0; columna < asientos[fila].length; columna++) {
                 System.out.print(asientos[fila][columna]);
                 if (columna != asientos[fila].length - 1) {
                     System.out.print("\t");
                 }
             }
-            System.out.println("|");
+            System.out.println(" |");
         }
 
         //Ahora que se ve el mapa de los asientos con claridad vamos rellenando por petición del usuario
@@ -53,24 +53,29 @@ public class Ejercicio4 {
             columna = scanner.nextInt();
             scanner.nextLine();
 
-            if (asientos[fila][columna].equals("x")) {//Comprobamos que el asiento no esté ocupado
-                System.out.println("lo sentimos, El asiento está ocupado.");
+            if (fila < 0 || fila > asientos.length || columna < 0 || columna > asientos.length) {
+                System.out.println("El asiento introducido es incorrecto, por favor, seleccione un asiento válido:");
             } else {
-                asientos[fila][columna] = "x";
-                System.out.println("Reserva confirmada!!");
+                if (asientos[fila][columna].equals("x")) {//Comprobamos que el asiento no esté ocupado
+                    System.out.println("lo sentimos, El asiento está ocupado.");
+                } else {
+                    asientos[fila][columna] = "x";
+                    System.out.println("Reserva confirmada!!");
+                }
+
+                System.out.println("Disposición actual de los asientos ocupados(x)/libres(o)");
+                for (fila = 0; fila < asientos.length; fila++) {
+                    System.out.print(fila + " | ");
+                    for (columna = 0; columna < asientos[fila].length; columna++) {
+                        System.out.print(asientos[fila][columna]);
+                        if (columna != asientos[fila].length - 1) {
+                            System.out.print("\t");
+                        }
+                    }
+                    System.out.println(" |");
+                }
             }
 
-            System.out.println("Disposición actual de los asientos ocupados(x)/libres(o)");
-            for (fila = 0; fila < asientos.length; fila++) {
-                System.out.print("|");
-                for (columna = 0; columna < asientos[fila].length; columna++) {
-                    System.out.print(asientos[fila][columna]);
-                    if (columna != asientos[fila].length - 1) {
-                        System.out.print("\t");
-                    }
-                }
-                System.out.println("|");
-            }
             System.out.println("Quiere realizar alguna reserva más? si/no");
             reserva = scanner.nextLine();
         } while (!reserva.equals("no"));
