@@ -1,0 +1,13 @@
+FUNCIONALIDADES DEL SISTEMA
+
+El equipo de desarrolladores ha creado un programa que permite almacenar 5 verduras en un vector. 
+Estas verduras poseen los atributos: id, nombre, color, calorías, debeCocinarse.
+Se han almacenado 5 verduras con todos sus atributos y se ha mostrado por pantalla el nombre y número de calorías de las verduras registradas.
+
+El equipo de testers ha realizado cambios en 2 verduras cambiando los datos de todos sus atributos y posteriormente se ha mostrado por pantalla las verduras registradas
+con los cambios realizados en esas 2 verduras y se ha confirmado que los cambios han sido realizados con éxito.
+Posteriormente se ha filtrado por color "verde" y se ha mostrado por pantalla únicamente las verduras que posean este color. El filtro por color mostrado en pantalla
+se ha realizado con éxito.
+
+El equipo de documentación se ha encargado de realizar esta documentación para confirmar que las especificaciones que se requerían del sistema han sido realizadas correctamente
+y que el programa funciona de acuerdo a las características que se solicitaban por parte del usuario.
