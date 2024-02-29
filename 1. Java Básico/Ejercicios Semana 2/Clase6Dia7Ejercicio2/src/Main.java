@@ -69,10 +69,9 @@ public class Main {
         for (Producto producto : productos) {
             if (producto.getCantidadStock() > stock) {
                 stock = producto.getCantidadStock();
-
             }
         }
-        System.out.println("\nEl mayor número de unidades en stock es: " + stock);
+            System.out.println("\nEl mayor número de unidades en stock es: " + stock);
 
+        }
     }
-}
