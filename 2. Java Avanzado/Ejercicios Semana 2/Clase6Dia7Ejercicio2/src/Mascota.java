@@ -22,7 +22,7 @@ public class Mascota<T> {
     @Override
     public String toString() {
         return "Mascota-> " +
-                "id" + id +
+                "id: " + id +
                 ", nombre: " + nombre +
                 ", edad: " + edad +
                 ", especie: " + especie;
