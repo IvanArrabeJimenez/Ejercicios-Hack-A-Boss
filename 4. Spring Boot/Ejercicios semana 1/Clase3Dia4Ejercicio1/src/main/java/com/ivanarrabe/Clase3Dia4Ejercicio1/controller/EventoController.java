@@ -14,7 +14,7 @@ public class EventoController {
     @PostMapping("/evento")
     public String crearEvento(@RequestBody Evento evento) {
         eventos.add(evento);
-        return "Evento agregafo a la agenda!!";
+        return "Evento agregado a la agenda!!";
     }
 
     @GetMapping("/eventos")

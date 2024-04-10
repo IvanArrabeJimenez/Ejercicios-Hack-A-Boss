@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "nombre": "Spaghetti a la bolognesa",
+        "ingredientes": [
+            { "id": 7, "nombre": "Pasta", "calorias": 131 },
+            { "id": 4, "nombre": "Tomate", "calorias": 22 },
+            { "id": 6, "nombre": "Carne de res", "calorias": 250 },
+            { "id": 1, "nombre": "Cebolla", "calorias": 47 },
+            { "id": 9, "nombre": "Aceite de oliva", "calorias": 900 },
+            { "id": 27, "nombre": "Azúcar", "calorias": 387 }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Ensalada César",
+        "ingredientes": [
+            { "id": 15, "nombre": "Lechuga", "calorias": 15 },
+            { "id": 13, "nombre": "Queso", "calorias": 402 },
+            { "id": 11, "nombre": "Huevo", "calorias": 70 },
+            { "id": 28, "nombre": "Vinagre", "calorias": 18 },
+            { "id": 6, "nombre": "Carne de res", "calorias": 250 } 
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Arroz con pollo",
+        "ingredientes": [
+            { "id": 8, "nombre": "Arroz", "calorias": 130 },
+            { "id": 5, "nombre": "Pollo", "calorias": 165 },
+            { "id": 1, "nombre": "Cebolla", "calorias": 47 },
+            { "id": 9, "nombre": "Aceite de oliva", "calorias": 900 },
+            { "id": 27, "nombre": "Azúcar", "calorias": 387 }
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Tacos de carne asada",
+        "ingredientes": [
+            { "id": 6, "nombre": "Carne de res", "calorias": 250 },
+            { "id": 3, "nombre": "Pimiento", "calorias": 22 },
+            { "id": 21, "nombre": "Perejil", "calorias": 47 },
+            { "id": 17, "nombre": "Zanahoria", "calorias": 41 },
+            { "id": 27, "nombre": "Azúcar", "calorias": 387 }
+        ]    
+    },
+    {
+        "id": 5,
+        "nombre": "Pizza Margarita",
+        "ingredientes": [
+            { "id": 14, "nombre": "Harina", "calorias": 364 },
+            { "id": 4, "nombre": "Tomate", "calorias": 22 },
+            { "id": 13, "nombre": "Queso", "calorias": 402 },
+            { "id": 9, "nombre": "Aceite de oliva", "calorias": 900 },
+            { "id": 22, "nombre": "Albahaca", "calorias": 22 }
+        ]    
+    },
+	{
+        "id": 6,
+        "nombre": "Hamburguesa clásica",
+        "ingredientes": [
+            { "id": 2, "nombre": "Ajo", "calorias": 169 },
+            { "id": 3, "nombre": "Pimiento", "calorias": 22 },
+            { "id": 18, "nombre": "Patata", "calorias": 77 },
+            { "id": 19, "nombre": "Maíz", "calorias": 86 },
+            { "id": 24, "nombre": "Canela", "calorias": 261 }
+        ]    
+    },
+    {
+        "id": 7,
+        "nombre": "Sushi variado",
+        "ingredientes": [
+            { "id": 20, "nombre": "Cilantro", "calorias": 23 },
+            { "id": 23, "nombre": "Orégano", "calorias": 306 },
+            { "id": 25, "nombre": "Pimienta", "calorias": 251 },
+            { "id": 26, "nombre": "Sal", "calorias": 0 },
+            { "id": 29, "nombre": "Salsa de soja", "calorias": 61 }
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "Enchiladas verdes",
+        "ingredientes": [
+            { "id": 3, "nombre": "Pimiento", "calorias": 22 },
+            { "id": 6, "nombre": "Carne de res", "calorias": 250 },
+            { "id": 9, "nombre": "Aceite de oliva", "calorias": 900 },
+            { "id": 11, "nombre": "Huevo", "calorias": 70 },
+            { "id": 17, "nombre": "Zanahoria", "calorias": 41 }
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Pasta Alfredo",
+        "ingredientes": [
+            { "id": 7, "nombre": "Pasta", "calorias": 131 },
+            { "id": 4, "nombre": "Tomate", "calorias": 22 },
+            { "id": 6, "nombre": "Carne de res", "calorias": 250 },
+            { "id": 1, "nombre": "Cebolla", "calorias": 47 },
+            { "id": 10, "nombre": "Mantequilla", "calorias": 752 }
+        ]
+    },
+    {
+        "id": 10,
+        "nombre": "Ensalada de frutas",
+        "ingredientes": [
+            { "id": 12, "nombre": "Leche", "calorias": 42 },
+            { "id": 16, "nombre": "Espinaca", "calorias": 23 },
+            { "id": 30, "nombre": "Limón", "calorias": 29 },
+            { "id": 13, "nombre": "Queso", "calorias": 402 },
+            { "id": 11, "nombre": "Huevo", "calorias": 70 }
+        ]
+    }
+]
