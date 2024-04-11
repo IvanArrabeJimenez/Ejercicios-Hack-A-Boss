@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "brand": "Peugeot",
+        "model": "206",
+        "kilometers": 150000,
+        "doors": 5,
+        "price": 7500.0
+    },
+    {
+        "id": 2,
+        "brand": "Seat",
+        "model": "Leon",
+        "kilometers": 30000,
+        "doors": 5,
+        "price": 24300.0
+    },
+    {
+        "id": 3,
+        "brand": "vokswagen",
+        "model": "Golf",
+        "kilometers": 27000,
+        "doors": 5,
+        "price": 31500.0
+    },
+    {
+        "id": 4,
+        "brand": "Renault",
+        "model": "Megane",
+        "kilometers": 300000,
+        "doors": 5,
+        "price": 2000.0
+    },
+    {
+        "id": 5,
+        "brand": "Audi",
+        "model": "A3",
+        "kilometers": 15000,
+        "doors": 5,
+        "price": 35800.0
+    }
+]
