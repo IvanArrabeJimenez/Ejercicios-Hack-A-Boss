@@ -1,0 +1,74 @@
+[
+    {
+      "idCurso": 1,
+      "nombre": "Java Básico",
+      "tipoCurso": "Online",
+      "fechaFinalizacion": "2024-02-28",
+      "temas": [
+        {
+          "idTema": 1,
+          "nombre": "Estructuras de control",
+          "descripcion": "Las estructuras condicionales permiten que un programa tome decisiones basadas en condiciones específicas."
+        },
+        {
+          "idTema": 2,
+          "nombre": "Introducción a la POO",
+          "descripcion": "La Programación Orientada a Objetos (POO) en Java es un paradigma de programación que se basa en la idea de que el mundo real puede ser modelado como una colección de objetos que interactúan entre sí."
+        },
+        {
+          "idTema": 3,
+          "nombre": "Collections en Java",
+          "descripcion": "En Java, las collections (colecciones) se refieren a estructuras de datos que se utilizan para almacenar y organizar grupos de objetos."
+        }
+      ]
+    },
+    {
+      "idCurso": 3,
+      "nombre": "Java Avanzado",
+      "tipoCurso": "Online",
+      "fechaFinalizacion": "2024-03-26",
+      "temas": [
+        {
+          "idTema": 52,
+          "nombre": "Manejo de Excepciones.",
+          "descripcion": "Las excepciones en programación son eventos o condiciones inusuales que pueden ocurrir durante la ejecución de un programa y que pueden interrumpir su flujo normal."
+        },
+        {
+          "idTema": 53,
+          "nombre": "Lambdas y Streams",
+          "descripcion": "La programación funcional es un paradigma de programación que se centra en el uso de funciones matemáticas y evita cambiar el estado y los datos mutables."
+        }
+      ]
+    },
+    {
+      "idCurso": 52,
+      "nombre": "Buenas Prácticas",
+      "tipoCurso": "Online",
+      "fechaFinalizacion": "2024-04-05",
+      "temas": [
+        {
+          "idTema": 102,
+          "nombre": "Patrones de diseño Creacionales",
+          "descripcion": "Los patrones de diseño son soluciones generales y reutilizables a problemas comunes que surgen al diseñar software."
+        }
+      ]
+    },
+    {
+      "idCurso": 102,
+      "nombre": "Spring Boot",
+      "tipoCurso": "Online",
+      "fechaFinalizacion": "2024-04-25",
+      "temas": [
+        {
+          "idTema": 152,
+          "nombre": "Patron MVC",
+          "descripcion": "Patrón MVC (Modelo Vista Controlador)."
+        },
+        {
+          "idTema": 153,
+          "nombre": "Arquitectura Multicapas",
+          "descripcion": "La arquitectura multicapa en proyectos de Java Spring Boot se organiza en distintas capas que tienen responsabilidades específicas."
+        }
+      ]
+    }
+  ]
