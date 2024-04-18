@@ -17,8 +17,11 @@ import java.util.List;
 @RequestMapping("/cursos")
 public class CursoController {
     /*Para facilitar las cosas he creado una carpeta llamada "Base datos postman y pruebas" en el directorio
-    * "resources en el que está la collection de postman para las pruebas, un json con las pruebas que he
-    * realizado y también el archivo sql con la base de datos."*/
+    * "resources" en el que está la collection de postman para las pruebas, un json con las pruebas que he
+    * realizado y también el archivo sql con la base de datos."
+    *
+    * También he implementado Spring Security para ampliar la funcionalidad de la App y también practicar lo que
+    * hemos aprendido en clase sobre el tema.*/
 
     @Autowired
     private ICursoService cursoService;
